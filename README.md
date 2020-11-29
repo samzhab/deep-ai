@@ -1,4 +1,8 @@
 ## deep ai
+
+![temporary logo](https://bt-strike.s3-us-west-2.amazonaws.com/images/ruby.gif "bt-strike temporary logo")
+
+
 Uses rest client to make simple http calls to https://deepai.org api and   provide features such as demographic classification, age estimation, celebrity recognition, etc...
 * rvm (rvm.io)
 * ruby interpreter (2.0+)
