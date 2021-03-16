@@ -5,10 +5,9 @@ git_source(:github) do |repo_name|
   repo_name = "#{repo_name}/#{repo_name}" unless repo_name.include?('/')
   "https://github.com/#{repo_name}.git"
 end
-gem 'addressable', '~> 2.5.2'
+gem 'addressable'
 gem 'byebug'
-gem 'json', '~> 2.4.0'
+gem 'json'
 gem 'rest-client'
-gem 'rubocop', '~> 0.51.0', require: false
-gem "rake", ">= 12.3.3"
-gem "excon", ">= 0.71.0"
+gem 'rubocop'
+gem "excon"
